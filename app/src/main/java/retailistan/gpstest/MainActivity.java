@@ -36,11 +36,12 @@ public class MainActivity extends AppCompatActivity {
 
     private void showData(){
 
-        Toast.makeText(this, "Hello JS!", Toast.LENGTH_SHORT).show();
-        Toast.makeText(this, "Hello Zain!", Toast.LENGTH_SHORT).show();
-        Toast.makeText(this, "Hello JS1", Toast.LENGTH_SHORT).show();
-        Toast.makeText(this, "Hello Zain2", Toast.LENGTH_SHORT).show();
-        Toast.makeText(this, "Hello JS3", Toast.LENGTH_SHORT).show();
-        Toast.makeText(this, "Hello Zain4", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Hello 1", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Hello 2", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Hello 3", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Hello 4", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Hello 5", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Hello 6", Toast.LENGTH_SHORT).show();
+
     }
 }
