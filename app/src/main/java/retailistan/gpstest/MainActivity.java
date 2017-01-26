@@ -38,5 +38,9 @@ public class MainActivity extends AppCompatActivity {
 
         Toast.makeText(this, "Hello Abrar!", Toast.LENGTH_SHORT).show();
         Toast.makeText(this, "Hello Zain!", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Hello JS1", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Hello Zain2", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Hello JS3", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Hello Zain4", Toast.LENGTH_SHORT).show();
     }
 }
