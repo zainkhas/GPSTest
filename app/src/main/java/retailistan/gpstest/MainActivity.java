@@ -24,6 +24,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void makingChanges(){
-        Log.d(TAG,"This is the change I have made!");
+        Log.d(TAG,"This change was maded in a clone or branch.");
     }
 }
