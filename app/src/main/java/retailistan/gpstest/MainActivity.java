@@ -46,6 +46,6 @@ public class MainActivity extends AppCompatActivity {
 
 
     private void newMethodInDevelopment() {
-        Log.d(TAG, "This is a change made in development version. ");
+
     }
 }
