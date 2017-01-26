@@ -24,8 +24,12 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private void show(){
+    private void makingChanges(){
+        Log.d(TAG,"This change was maded in a clone or branch.");
+        Toast.makeText(getApplicationContext(), "changes js side", Toast.LENGTH_LONG).show();
 
 
+        Toast.makeText(this, "This was added by Zain!", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "kjahsdkjadjkajksdjashdjasd", Toast.LENGTH_SHORT).show();
     }
 }
