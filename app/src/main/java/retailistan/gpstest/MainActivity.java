@@ -24,8 +24,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private void makingChanges(){
-        Log.d(TAG,"This change was maded in a clone or branch.");
+    private void makingChanges() {
+        Log.d(TAG, "This change was maded in a clone or branch.");
         Toast.makeText(getApplicationContext(), "changes js side", Toast.LENGTH_LONG).show();
 
 
@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    private void showData(){
+    private void showData() {
 
         Toast.makeText(this, "Hello 0", Toast.LENGTH_SHORT).show();
         Toast.makeText(this, "Hello Zain!", Toast.LENGTH_SHORT).show();
@@ -42,5 +42,10 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, "Hello Zain2", Toast.LENGTH_SHORT).show();
         Toast.makeText(this, "Hello JS3", Toast.LENGTH_SHORT).show();
         Toast.makeText(this, "Hello Zain4", Toast.LENGTH_SHORT).show();
+    }
+
+
+    private void newMethodInDevelopment() {
+        Log.d(TAG, "This is a change made in development version. ");
     }
 }
